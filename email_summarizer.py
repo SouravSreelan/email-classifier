@@ -7,7 +7,7 @@ from typing import Optional, List, Mapping
 # -----------------------------
 # Initialize Google Gemini client
 # -----------------------------
-client = genai.Client(api_key="AIzaSyCLGr_vFGLpPPM8a8tKVy1ABwsgho-KDIA")
+client = genai.Client(api_key="AIzaSyCLGr_vFGLpP")
 
 # -----------------------------
 # Custom Gemini LLM Wrapper for LangChain
@@ -81,3 +81,4 @@ final_summary = format_bullets(summary)
 # -----------------------------
 print("Original Email:\n", email_text)
 print("\nSummary:\n", final_summary)
+
