@@ -9,7 +9,7 @@ from typing import Optional, List, Mapping
 # -----------------------------
 # Initialize Google Gemini client
 # -----------------------------
-client = genai.Client(api_key="AIzaSyCLGr_vFGLpPPM8a8tKVy1ABwsgho-KDIA")
+client = genai.Client(api_key="AIzaSyo-")
 
 # -----------------------------
 # Gemini LLM Wrapper
@@ -85,3 +85,4 @@ for file_name in os.listdir(EMAIL_FOLDER):
 df = pd.DataFrame(results)
 df.to_csv("email_summaries.csv", index=False)
 print("Batch summaries saved to email_summaries.csv")
+
